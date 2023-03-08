@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.navbar{
+    display: flex;
+    padding: 9px;
+    flex-direction: column;
+    align-items: center;
+    background-color:#363636;
+    color: #fff;
+}
+.h1{
+    padding: 9px;
+    font-size: 100px;
+}
+.p{
+    padding: 9px;
+    font-size: 25px;
+}
+.titulo{
+    display: flex;
+    padding: 9px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 60px;
+}
+.descricao{
+    padding: 9px;
+    font-size: 20px;
+} 
+.biografia{
+    padding: 12px;
+} 
+.corpo{
+    display: flex;
+    padding: 9px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #808080;
+    color: #fff;
+}
+.j{
+    width: 1830px;
+    text-align: justify;
+    font-size: 30px;
+}
