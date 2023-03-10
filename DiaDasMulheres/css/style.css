@@ -2,15 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Mulish', sans-serif;
 }
 .navbar{
     display: flex;
     padding: 9px;
     flex-direction: column;
     align-items: center;
-    background-color:#363636;
-    color: #fff;
+    background-color: #ffb6c0;
+    color: #000;
 }
 .h1{
     padding: 9px;
@@ -21,29 +21,44 @@
     font-size: 25px;
 }
 .titulo{
+    margin-bottom: 20px;
     display: flex;
     padding: 9px;
     flex-direction: column;
     align-items: center;
     font-size: 60px;
 }
+.lavinia{
+    margin-bottom: 15px;
+}
 .descricao{
+    margin: 20px;
     padding: 9px;
     font-size: 20px;
 } 
 .biografia{
+    margin: 20px;
     padding: 12px;
 } 
 .corpo{
     display: flex;
     padding: 9px;
     flex-direction: column;
-    align-items: center;
-    background-color: #808080;
-    color: #fff;
+    align-items: center; 
+    background-color: #ffcbdb;
+    color: #000;
 }
 .j{
+    margin: 25px;
     width: 1830px;
     text-align: justify;
-    font-size: 30px;
+    font-size: 25px;
+}
+footer{
+    display: flex;
+    padding: 9px;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #ffb6c0;
+    color: #000;
 }
